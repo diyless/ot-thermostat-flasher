@@ -1,4 +1,4 @@
-#DIYLESS OpenTherm Thermostat Flasher  
+# DIYLESS OpenTherm Thermostat Flasher  
 https://diyless.com/product/opentherm-thermostat  
   
 1. Install Arduino core for the ESP32 using Board Manager  
