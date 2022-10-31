@@ -10,7 +10,7 @@ https://diyless.com/product/opentherm-thermostat
 6. Upload sketch and wait several minutes until sketch downloads the firmware  
 
 ## Themperature sensor options:
-- built-in. Connect DS18B20 sensor using wires to avlid heat impact from ESP32 chip.
+- Built-in. Connect DS18B20 sensor using wires to avlid heat impact from ESP32 chip.
 - Bluetooth. The thermostat can be paired with Mi Temperature and Humidity Sensor 2, but with custom firmware only.
 You can flash it using this page https://pvvx.github.io/ATC_MiThermometer/TelinkMiFlasher.html
 - MQTT. To use MQTT sensor you need to publish current room temperature (float value) to topic:
