@@ -15,3 +15,7 @@ https://diyless.com/product/opentherm-thermostat
 You can flash it using this page https://pvvx.github.io/ATC_MiThermometer/TelinkMiFlasher.html
 - MQTT. To use MQTT sensor you need to publish current room temperature (float value) every 1 minute to topic:
 diyless_thermostat/cmnd/things/thermostat/properties/temperature
+
+
+## Configuration
+https://diyless.com/blog/opentherm-thermostat-cfg-overview
