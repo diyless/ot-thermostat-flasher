@@ -7,9 +7,9 @@ https://diyless.com/product/opentherm-thermostat
 3. Select partition scheme Minimal SPIFFS  
 4. Select port  
 5. Update sketch, specify WIFI_SSID, WIFI_PASSWORD and ACTIVATION_CODE if your module has not been registered earlier  
-6. Upload sketch and wait several minutes until sketch downloads the firmware
-Please contact us to get activation code https://diyless.com/contact
-If you bought the thermostat from https://diyless.com/ web shop you can re-flash the firmware without activation code (just left it as is).
+6. Upload sketch and wait several minutes until sketch downloads the firmware  
+Please contact us to get the activation code https://diyless.com/contact  
+If you bought the thermostat from https://diyless.com/ web shop you can re-flash the firmware without activation code (just left it as is).  
 
 ## Temperature sensor options:
 - Built-in. Connect DS18B20 sensor using wires to avlid heat impact from ESP32 chip.
