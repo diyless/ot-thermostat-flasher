@@ -21,7 +21,7 @@ const char* FIRMWARE_URL = "https://diyless.com/firmware/thermostat/";
 String url = String(FIRMWARE_URL) + "?code=" + ACTIVATION_CODE;
 
 WiFiMulti WiFiMulti;
-char* flash_mode = "DATA";
+char* flash_mode = "SKETCH";
 
 void setup() {
   Serial.begin(9600);
@@ -77,16 +77,7 @@ void loop() {
     httpUpdate.onProgress(update_progress);
     httpUpdate.onError(update_error);
 
-    Serial.println("Update SPIFFS...");
-    flash_mode = "DATA";
-    t_httpUpdate_return ret = httpUpdate.updateSpiffs(client, url);
+    t_httpUpdate_return ret = httpUpdate.update(client, url);
     print_flash_result(ret);
-    
-    if (ret == HTTP_UPDATE_OK) {
-      Serial.println("Update sketch...");
-      flash_mode = "SKETCH";
-      ret = httpUpdate.update(client, url);
-      print_flash_result(ret);
-    }
   }
 }
