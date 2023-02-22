@@ -2,7 +2,7 @@
 https://diyless.com/product/opentherm-thermostat  
 
 ## Firmware setup
-1. Install Arduino core for the ESP32 **(version 2.0.5 only)** using Board Manager  
+1. Install Arduino core for the ESP32 using Board Manager  
 2. Select board ESP32 Dev Module  
 3. Select partition scheme Minimal SPIFFS  
 4. Select port  
